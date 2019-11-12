@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="title">
+	<h1> GEM$ </h1>
+	<h2> AUTHORIZATION FOR RELEASE OF INFORMATION <br> HGIA Green Energy Money $aver On-Bill Program (Eligibility and Ongoing Participation) </h2>
+</div>
+<div>
+	<h3>Customer Name: <input type="text"></h3>(Please print name exactly as it appears on your utility bill)
+	<h3>Date:   <input type="text"></h3>
+	<h3>Service Address: <input type="text"></h3>(Please print Service Address exactly as it appears on your utility bill)
+</div>
+<div>
+	<h2>Utility (must select one): </h2>
+	<form>
+ 		<input type="checkbox"> Hawaiian Electric <br>
+ 		<input type="checkbox"> Maui Electric <br>
+ 		<input type="checkbox"> Hawai'i Electric Light <br>
+ 	</form>
+ 		<h3>Utility Account Number: <input type="number"></h3>
+</div>
+<div>
+	<p>
+		I am applying to participate in the Hawaii Green Infrastructure Authority's ("HGIA") Green Energy Money$aver  On-Bill  Program  ("Program").  As  part  of  the  Program,  HGIA  needs  access  to  my  utility  bill  information. I understand that information about my utility bill will be shared with HGIA, both initially to evaluate  my  application  and  on  an  on-going  basis  for  as  long  as  I  am  a  participant  in  the  Program.  I  hereby authorize the utility indicated above to release the following information to HGIA and any of its representatives, agents, and contractors for the Program:<br><br>- Information to identify my account, including account numbers and identifiers for my service address. <br><br>- Bill history information, including prior disconnects, months of active service, the start date and any future move-out date. <br><br>- Information about my current bill and payment, including the dates, amounts, and document numbers. <br><br>- Rate information, including whether there is an interconnection agreement for this location, the rate schedule and tariff.<br><br> Information  about  my  utility  bill  will  be  handled  confidentially  by  HGIA,  its  representatives,  agents  and  contractors for the Program.<br><br>I  understand that my authorization will remain effective from the date of    my signature until my application evaluation is complete, and for as long as I am a participant in the Program and an on-bill obligation is outstanding at    the service address identified above.  I also understand that information and data collected may  be  used  to  assess  the  Program's  effectiveness  and  results,  which  will  be  anonymized  and  aggregated, and may be included in Program reports provided to    the Hawaii Public Utilities Commission.<br><br>I have read and understand the nature of this authorization.
+	</p>
+	<h3><input type="text"> <br><br>Name of Customer</h3>
+	<h3>(Please print name exactly as it appears on your utility bill)</h3>
+	<h3><input type="text"><br><br>Signature of Customer</h3>
+	<h3>(Please print name exactly as it appears on your utility bill)</h3>
+	<h3><input type="text"><br><br>Date</h3>
+</div>
+<script>
+function popMessage() {
+if (confirm("Thank you for submitting a Green Loan Application! Please give us time to review it and we'll get back to you as soon as we can!")){
+  window.location = "../TheInterview.html"
+} 
+else {
+  window.location = "../TheInterview.html"
+}
+document.getElementById("demo").innerHTML = location.href;
+}
+</script>
+
+	<button id="button" onclick="popMessage()"> Submit Application </button>
+</body>
+</html>
